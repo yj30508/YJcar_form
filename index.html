@@ -1,0 +1,90 @@
+<meta charset="UTF-8">
+<!DOCTYPE html>
+td { border: 1px solid #ccc; padding: 8px; }
+input, select, textarea { width: 100%; padding: 6px; border-radius: 6px; border: 1px solid #bbb; }
+textarea { height: 80px; }
+.save-btn { width: 100%; padding: 14px; background: #333; color: #fff; border: none; border-radius: 10px; font-size: 16px; cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="form-container">
+<h2>자동차 보험 신청서</h2>
+
+
+<table>
+<tr><td>담당자</td><td><input type="text" /></td></tr>
+<tr><td>사업단</td><td><input type="text" /></td></tr>
+<tr><td>사원명</td><td><input type="text" /></td></tr>
+</table>
+
+
+<table>
+<tr><td>피보험자</td><td><input type="text" /></td></tr>
+<tr><td>휴대폰</td><td><input type="text" /></td></tr>
+<tr><td>주민번호</td><td><input type="text" /></td></tr>
+<tr><td>주소</td><td><input type="text" /></td></tr>
+</table>
+
+
+<table>
+<tr><td>계약자</td><td><input type="text" /></td></tr>
+<tr><td>휴대폰</td><td><input type="text" /></td></tr>
+<tr><td>주민번호</td><td><input type="text" /></td></tr>
+<tr><td>주소</td><td><input type="text" /></td></tr>
+</table>
+
+
+<table>
+<tr><td>차량번호</td><td><input type="text" /></td></tr>
+<tr><td>마일리지</td><td><input type="text" placeholder="O / X" /></td></tr>
+<tr><td>차명</td><td><input type="text" /></td></tr>
+<tr><td>블박</td><td><input type="text" placeholder="O / X" /></td></tr>
+<tr><td>연식</td><td><input type="text" /></td></tr>
+<tr><td>계좌번호</td><td><input type="text" /></td></tr>
+<tr><td>기타부속</td><td><input type="text" /></td></tr>
+</table>
+
+
+<h3>담보사항</h3>
+<table>
+<tr><td>대인배상 I</td><td><input type="text" placeholder="가입필수" /></td></tr>
+<tr><td>대인배상 II</td><td><input type="text" placeholder="무 / 한" /></td></tr>
+<tr><td>대물배상</td><td><input type="text" placeholder="2천 / 3천 / 5천 ..." /></td></tr>
+<tr><td>자손/자상</td><td><input type="text" /></td></tr>
+<tr><td>무보험차상해</td><td><input type="text" /></td></tr>
+<tr><td>자기차량손해</td><td><input type="text" /></td></tr>
+<tr><td>긴급출동</td><td><input type="text" /></td></tr>
+</table>
+
+
+<h3>운전범위</h3>
+<input type="text" placeholder="차주만 / 가족 / 지정1인 등" />
+
+
+<h3>운전자연령</h3>
+<input type="text" placeholder="전연령 / 만21세 / 만24세 ..." />
+
+
+<h3>지정 1인 운전자</h3>
+<input type="text" placeholder="이름 & 주민번호" />
+
+
+<h3>배우자 / 최전운전자</h3>
+<input type="text" />
+
+
+<h3>경력자 지정</h3>
+<table>
+<tr><td>경력1</td><td><input type="text" /></td></tr>
+<tr><td>경력2</td><td><input type="text" /></td></tr>
+</table>
+
+
+<h3>메모</h3>
+<textarea></textarea>
+
+
+<button class="save-btn" onclick="window.print()">이미지로 저장하기</button>
+</div>
+</body>
+</html>
